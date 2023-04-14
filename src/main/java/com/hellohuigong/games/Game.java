@@ -18,14 +18,14 @@ public class Game {
     @Id
     private ObjectId id;
     private String name;
-    private String steam_appid;
-    private String header_image;
+    private Integer steamId;
+    private String header;
     private List<String> genres;
     private List<String> screenshots;
     private List<String> movies;
-    private String release_date;
+    private String releaseDate;
     private  String background;
-    private String background_raw;
+    private String backgroundRaw;
     @DocumentReference
     private List<Review> reviewIds;
 
